@@ -2,10 +2,15 @@
   <body>
     <h1>Multiplicador</h1>
     <form id="sumar-form">
-      <label for="first-number">Price: </label>
+      <label for="first-number">Precio: </label>
       <input type="number" id="first-number" />
-      <label for="second-number">Quantity: </label>
+      <label for="second-number">Cantidad: </label>
       <input type="number" id="second-number" />
+      <select name="state" id="state-select">
+        <option value="">--Por favor elija un estado--</option>
+        <option value="NY">NY</option>
+        <option value="TX">TX</option>
+      </select>
       <input type="submit" value="Totalizar" />
     </form>
     <div id="resultado-div"></div>
